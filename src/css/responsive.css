@@ -1,0 +1,99 @@
+/*Telas 1024px*/
+@media (max-width: 1200px) {
+    .cabecalho .logo .image-logo {
+        width: 19rem;
+    }
+    
+    .container {
+        
+        padding-top: 3rem;
+    }
+    
+    .illustration-mockups .mockups {
+        width: 60rem;
+    }
+
+    .container .informacoes {
+        max-width: 45rem;
+        padding: 3rem;
+    }
+}
+
+/*Telas 1115px*/
+@media (max-width: 1115px) {
+    .illustration-mockups .mockups {
+        width: 52rem;
+    }
+
+    .container .informacoes {
+        max-width: 41rem;
+    }
+}
+
+/*Telas 995px*/
+@media (max-width: 995px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .informacoes {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .redes-sociais {
+        padding: 2rem 0;
+        margin-left: 9rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*Telas 682px*/
+@media (max-width: 682px) {
+    .illustration-mockups .mockups {
+        width: 50rem;
+    }
+}
+
+/*Telas 580px*/
+@media (max-width: 580px) {
+    .cabecalho .logo .image-logo {
+        width: 17rem;
+    }
+
+    .illustration-mockups .mockups {
+        width: 38rem;
+    }
+}
+
+/*Telas 492px*/
+@media (max-width: 492px) {
+    .cabecalho .logo .image-logo {
+        width: 15rem;
+        padding-bottom: 1rem;
+    }
+
+    .illustration-mockups .mockups {
+        width: 32rem;
+    }
+
+    .container .informacoes {
+        max-width: 40rem;
+        
+    }
+    
+    .container .informacoes h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        width: 30rem;
+    }
+    
+    .container .informacoes p {
+        color: #ffffff;
+        margin-bottom: 3.5rem;
+        font-size: 1.5rem;
+    }
+}

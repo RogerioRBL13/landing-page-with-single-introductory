@@ -1,0 +1,22 @@
+:root{
+    /*cores primarias*/
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+    font-size: 62.5%;
+}
+
+body, html, p, a, button{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */

@@ -1,0 +1,86 @@
+body{
+    background-color: var(--violet);
+    background-image: url('../images/bg-desktop.svg');
+}
+
+main{
+    max-width: 144.0rem;
+    height: 100vh;
+    padding: 3.5rem;
+    margin: auto;
+}
+
+.cabecalho .logo .image-logo {
+    width: 21rem;
+}
+
+.container {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.illustration-mockups .mockups {
+    width: 72.5rem;
+}
+
+.container .informacoes {
+    max-width: 57rem;
+    
+}
+
+.container .informacoes h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 40rem;
+    color: #ffffff;
+    margin-bottom: 3.5rem;
+}
+
+.container .informacoes p {
+    color: #ffffff;
+    margin-bottom: 3.5rem;
+    font-size: 1.6rem;
+}
+
+.container .informacoes .btn button {
+    color: var(--violet);
+    background-color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 17rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.container .informacoes .btn:hover button {
+    color: #ffffff;
+    background-color: var(--soft-magenta);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 10rem;
+    padding-bottom: 2rem;
+}
+
+.redes-sociais .rede-social .ph-facebook-logo,
+.redes-sociais .rede-social .ph-twitter-logo, 
+.redes-sociais .rede-social .ph-instagram-logo {
+    font-size: 3.5rem;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.redes-sociais .rede-social:hover .ph-facebook-logo,
+.redes-sociais .rede-social:hover .ph-twitter-logo, 
+.redes-sociais .rede-social:hover .ph-instagram-logo {
+    color: var(--soft-magenta);
+}
